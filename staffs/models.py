@@ -31,6 +31,7 @@ class Issues(models.Model):
         models.PROTECT,
         db_column='category_id',
         to_field='position',
+
         related_name='issue_statuses'
     )
 
